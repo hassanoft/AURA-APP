@@ -1,10 +1,11 @@
-// build.gradle racine — AURA Social Network
-// Compatible CodeAssist Android + Android Studio
-
 buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
     dependencies {
         classpath 'com.android.tools.build:gradle:8.1.4'
-        // Pas de Kotlin plugin — projet 100% Java
     }
 }
 
@@ -12,10 +13,5 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
     }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
 }
