@@ -1,0 +1,92 @@
+[
+  {
+    "artifactId": "appcompat",
+    "excludes": [],
+    "groupId": "androidx.appcompat",
+    "versionName": "1.4.2"
+  },
+  {
+    "artifactId": "core",
+    "excludes": [],
+    "groupId": "androidx.core",
+    "versionName": "1.7.0"
+  },
+  {
+    "artifactId": "activity",
+    "excludes": [],
+    "groupId": "androidx.activity",
+    "versionName": "1.4.0"
+  },
+  {
+    "artifactId": "fragment",
+    "excludes": [],
+    "groupId": "androidx.fragment",
+    "versionName": "1.4.1"
+  },
+  {
+    "artifactId": "recyclerview",
+    "excludes": [],
+    "groupId": "androidx.recyclerview",
+    "versionName": "1.2.1"
+  },
+  {
+    "artifactId": "swiperefreshlayout",
+    "excludes": [],
+    "groupId": "androidx.swiperefreshlayout",
+    "versionName": "1.1.0"
+  },
+  {
+    "artifactId": "material",
+    "excludes": [],
+    "groupId": "com.google.android.material",
+    "versionName": "1.4.0"
+  },
+  {
+    "artifactId": "okhttp",
+    "excludes": [],
+    "groupId": "com.squareup.okhttp3",
+    "versionName": "4.10.0"
+  },
+  {
+    "artifactId": "logging-interceptor",
+    "excludes": [],
+    "groupId": "com.squareup.okhttp3",
+    "versionName": "4.10.0"
+  },
+  {
+    "artifactId": "retrofit",
+    "excludes": [],
+    "groupId": "com.squareup.retrofit2",
+    "versionName": "2.9.0"
+  },
+  {
+    "artifactId": "converter-gson",
+    "excludes": [],
+    "groupId": "com.squareup.retrofit2",
+    "versionName": "2.9.0"
+  },
+  {
+    "artifactId": "gson",
+    "excludes": [],
+    "groupId": "com.google.code.gson",
+    "versionName": "2.10.1"
+  },
+  {
+    "artifactId": "glide",
+    "excludes": [],
+    "groupId": "com.github.bumptech.glide",
+    "versionName": "4.13.2"
+  },
+  {
+    "artifactId": "bcrypt",
+    "excludes": [],
+    "groupId": "at.favre.lib",
+    "versionName": "0.10.2"
+  },
+  {
+    "artifactId": "circleimageview",
+    "excludes": [],
+    "groupId": "de.hdodenhof",
+    "versionName": "3.1.0"
+  }
+]
