@@ -2,10 +2,7 @@
 // Compatible CodeAssist Android + Android Studio
 
 buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
+    
     dependencies {
         classpath 'com.android.tools.build:gradle:7.0.4'
         // Pas de Kotlin plugin — projet 100% Java
