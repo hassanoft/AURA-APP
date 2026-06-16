@@ -128,9 +128,9 @@ public final class U {
      * @return TextInputLayout prêt à l'emploi
      */
     public static TextInputLayout inputField(Context c, String hint, int inputType) {
-        // Style outlined Material3
+        // Style outlined Material3 (utilise textInputStyle, puis force outline via setBoxBackgroundMode)
         TextInputLayout til = new TextInputLayout(c, null,
-                com.google.android.material.R.attr.textInputOutlinedStyle);
+                com.google.android.material.R.attr.textInputStyle);
         til.setHint(hint);
         til.setBoxBackgroundMode(TextInputLayout.BOX_BACKGROUND_OUTLINE);
         til.setBoxCornerRadii(dp(c, 12), dp(c, 12), dp(c, 12), dp(c, 12));
