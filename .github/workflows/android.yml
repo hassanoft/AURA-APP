@@ -1,5 +1,8 @@
 name: Build Android APK
 
+- name: Clean and Build debug APK
+  run: ./gradlew clean assembleDebug --no-build-cache
+
 on:
   push:
     branches: [ main ]
